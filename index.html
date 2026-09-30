@@ -1,24 +1,268 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Savio Menezes - Profile Card</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-        <link rel="stylesheet" href="./css/styles.css" />
-    </head>
-    <body>
-        <div class="profile-box">        
-            <img src="./assets/profile-pic.png" alt="profile pic" class="profile-pic"/>
-            <h3>Savio Menezes</h3>
-            <p>Freelance Web Developer</p>
-            <div class="social-media">
-                <i class="fa-brands fa-linkedin"></i>
-                <i class="fa-brands fa-instagram"></i>
-                <i class="fa-brands fa-github"></i>
+
+<head>
+    <title>Sav Bakes template</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/fonts/icofont/icofont.min.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+</head>
+
+<body>
+    <header class="container">
+        <nav>
+            <div class="logo">
+                <a href="#">
+                    <h1>Sav Bakes</h1>
+                </a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="mobile-menu">
+                <i class="icofont-duotone icofont-menu"></i>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="container hero-container">
+            <img src="./assets/images/hero.png" alt="hero-img" />
+            <div class="content">
+                <div>
+                    <h2>Welcome to Sav Bakes</h2>
+                    <span>Handcrafted daily with real butter, organic flour, and timeless passion. From warm, golden sourdough loaves to delicate morning pastries, every item in our display case is baked fresh every single morning.</span>
+
+                </div>
             </div>
         </div>
-    </body>
+    </section>
+    <section class="container" id="fan-favourites">
+        <h3>Fan Favourites</h3>
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/chocolate cake.jpg" alt="chocolate cake">
+                </div>
+                <div class="card-body">
+                    <h3>Chocolate Cake</h3>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/biscotti.jpg" alt="biscotti">
+                </div>
+                <div class="card-body">
+                    <h3>Biscotti</h3>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/oatmeal cookies.jpg" alt="oatmeal cookies">
+                </div>
+                <div class="card-body">
+                    <h3>Oatmeal cookies</h3>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/peanut cookies.jpg" alt="peanut cookies">
+                </div>
+                <div class="card-body">
+                    <h3>Peanut cookies</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="cookies">
+        <h3>Cookies</h3>
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/biscotti.jpg" alt="biscotti">
+                </div>
+                <div class="card-body">
+                    <h3>Biscotti</h3>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/butter cookies.jpg" alt="butter cookies">
+                </div>
+                <div class="card-body">
+                    <h3>Butter cookies</h3>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/oatmeal cookies.jpg" alt="oatmeal cookies">
+                </div>
+                <div class="card-body">
+                    <h3>Oatmeal cookies</h3>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/peanut cookies.jpg" alt="peanut cookies">
+                </div>
+                <div class="card-body">
+                    <h3>Peanut cookies</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="cakes">
+        <h3>Cakes</h3>
+        <div class="recipe-grid">
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/chocolate cake.jpg" alt="chocolate cake">
+                </div>
+                <div class="card-body">
+                    <h3>Chocolate Cake</h3>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/raisin cake.jpg" alt="raisin cake">
+                </div>
+                <div class="card-body">
+                    <h3>Raisin Cake</h3>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/carrot cake.jpg" alt="carrot cake">
+                </div>
+                <div class="card-body">
+                    <h3>Carrot Cake</h3>
+                </div>
+            </div>
+            <div class="recipe-card">
+                <div class="card-image">
+                    <img src="./assets/images/bannana cake.jpg" alt="banana cake">
+                </div>
+                <div class="card-body">
+                    <h3>Banana Cake</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container" id="about">
+        <div class="about-grid">
+            <img src="./assets/images/about.jpg" alt="about" class="about-img">
+
+            <div class="about-content">
+
+                <h2>Our Story</h2>
+                <p>
+                    Welcome to <strong>Sav Bakes</strong>, your neighborhood bakery store dedicated to the timeless art
+                    of handcrafted baking. From warm, golden sourdough loaves to delicate morning pastries, every item
+                    in our display case is baked fresh every single morning.
+                </p>
+
+                <p>
+                    We believe that exceptional baking starts with uncompromising quality. That is why we use only pure
+                    real butter, unbleached flours, organic sugars, and locally sourced seasonal ingredients—never
+                    pre-made mixes or artificial preservatives.
+                </p>
+
+                <p>
+                    Whether you are stopping in for your daily morning coffee and croissant, ordering a custom
+                    celebration cake, or picking up fresh artisanal bread for dinner, our bakers pour heart and
+                    precision into every single batch.
+                </p>
+
+                <p>
+                    Step into our store or order online to experience the aroma, comfort, and unmatched taste of true
+                    scratch baking. We can't wait to share our passion with you.
+                </p>
+
+            </div>
+        </div>
+    </section>
+    <section class="container" id="contact">
+        <h3>Contact Us</h3>
+        <div class="contact-grid">
+            <div class="contact-info">                
+                <h4><i class="icofont-duotone icofont-location"></i> Bakery Location</h4>
+                <p>Shop 123<br/>
+                   XYZ Lane<br/>
+                   Goa India
+                </p>
+                <h4>Store Hours</h4>
+                <p>Mon - Sat<br/>
+                   7:00AM - 6:00PM  
+                </p>
+                <p>Sun<br/>
+                7:00AM - 1:00PM</p>
+                <h4>Direct Contact</h4>
+                <p><i class="icofont-duotone icofont-phone"></i> 987654321<br/>
+                    <i class="icofont-duotone icofont-mass-mail"></i> hello@savbakes.com
+                </p>
+            </div>
+            <div class="contact-form">
+                <h4>Message us</h4>
+                <form class="contact-form" onsubmit="event.preventDefault();">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" placeholder="Joe Doe" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="abc@example.com" required />
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" rows="4" placeholder="Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-brand">
+                <h2>Sav Bakes</h2>
+                <p>Handcrafted daily with real butter, organic flour, and timeless passion. From warm, golden sourdough loaves to delicate morning pastries, every item in our display case is baked fresh every single morning.</p>
+            </div>
+
+            <div class="footer-column">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#fan-favourites">Fan Favourites</a></li>
+                    <li><a href="#cookies">Cookies</a></li>
+                    <li><a href="#cakes">Cakes</a></li>
+                </ul>
+            </div>
+
+            <!-- Company Links -->
+            <div class="footer-column">
+                <h4>Bakery</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-column">
+                <h4>News</h4>
+                <p class="newsletter-subscribe">Subscribe to our weekly newsletter.</p>
+                <form class="newsletter-form" onsubmit="event.preventDefault();">
+                    <input type="email" placeholder="Your email address" required>
+                    <button type="submit">Join</button>
+                </form>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>&copy; 2026 Sav Bakes. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
 </html>
